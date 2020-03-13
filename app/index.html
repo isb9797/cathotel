@@ -61,15 +61,180 @@
 			</nav>
 	</header>
 
-	<main>
+	<main class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<h1>Наши номера</h1>
 
+					<form method="get" action="#" class="filter">
+						<div class="form-check">	
+							<p>Цена за сутки, ₽</p>
+							<input type="text" class="input-text" placeholder="от 100">
+							<input type="text" class="input-text" placeholder="от 100">
+	
+	
+							<p>Площадь</p>
+							<input id="ch-0" class="form-check-input" type="checkbox" name="" value="0,63">
+							<label for="ch-0" class="form-check-label">0,63 м2</label>
+	
+							<input id="ch-1" class="form-check-input" type="checkbox" name="" value="0,90">
+							<label for="ch-1" class="form-check-label">0,90 м2</label>
+	
+							<input id="ch-2" class="form-check-input" type="checkbox" name="" value="1,13">
+							<label for="ch-2" class="form-check-label">1,13 м2</label>
+	
+							<input id="ch-3" class="form-check-input" type="checkbox" name="" value="1,56">
+							<label for="ch-3" class="form-check-label">1,56 м2</label>
+	
+							<input id="ch-4" class="form-check-input" type="checkbox" name="" value="2,56">
+							<label for="ch-4" class="form-check-label">2,56 м2</label>
+	
+							<input id="ch-5" class="form-check-input" type="checkbox" name="" value="2,88">
+							<label for="ch-5" class="form-check-label">2,88 м2</label>
+	
+							
+	
+							<p>Оснащение номера</p>
+							<input id="ch-6" class="form-check-input" type="checkbox" name="" value="Пустой номер">
+							<label for="ch-6" class="form-check-label">Пустой номер</label>
+	
+							<input id="ch-7" class="form-check-input" type="checkbox" name="" value="Лежак">
+							<label for="ch-7" class="form-check-label">Лежак</label>
+	
+							<input id="ch-8" class="form-check-input" type="checkbox" name="" value="Когтеточка">
+							<label for="ch-8" class="form-check-label">Когтеточка</label>
+	
+							<input id="ch-9" class="form-check-input" type="checkbox" name="" value="Игровой-комплекс">
+							<label for="ch-9" class="form-check-label">Игровой-комплекс</label>
+	
+							<input id="ch-10" class="form-check-input" type="checkbox" name="" value="Домик">
+							<label for="ch-10" class="form-check-label">Домик</label>
+						</div>
+
+						<a href="#" class="filter-btn btn " id="submit-btn">Применить</a>
+						<a href="#" class="filter-btn filter-btn__border btn btn " id="reset-btn">Сбросить фильтр</a>
+					</form>
+				</div>
+				<div class="col-9">
+
+					<!-- Одна кнопка -->  
+					<div class="btn-group order-by">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Action <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+						</ul>
+					</div>
+					<!-- <div class="form-group">
+						<select id="orderBy" class="form-control order-by" name="orderBy">
+							<option>По площади</option>
+							<option>По площади</option>
+							<option>По цене</option>
+							<option>По цене</option>
+						</select>
+					</div> -->
+
+						<div class="articles">
+							<article id="0" class="article">
+								<img class="article-image" src="img/@1x/Rectangle 46article.jpg" alt="">
+								<div class="article-desription">
+									<h2>Эконом</h2>
+									<p>Размеры (ШхГхВ) - 90х70х180 см</p>
+									<p>Площадь - 0,63 м2</p>
+									<span class="article-category"></span><p>Оснащение номера</p> </span>
+									<span class="article-price"><p>Цена за сутки: <span class="price">100₽</span></p>  </span>
+								</div>
+
+								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
+								
+							</article>
+
+							<article id="1" class="article">
+								<img class="article-image" src="img/@1x/Rectangle 47article.jpg" alt="">
+								<div class="article-desription">
+									<h2>Эконом плюс</h2>
+									<p>Размеры (ШхГхВ) - 90х100х180 см</p>
+									<p>Площадь - 0,90 м2</p>
+									<span class="article-category"></span><p>Оснащение номера</p> </span>
+									<span class="article-price"><p>Цена за сутки: <span class="price">200₽</span></p>  </span>
+								</div>
+
+								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
+								
+							</article>
+
+							<article id="2" class="article">
+								<img class="article-image" src="img/@1x/Rectangle 48article-1.jpg" alt="">
+								<div class="article-desription">
+									<h2>Комфорт</h2>
+									<p>Размеры (ШхГхВ) - 100х125х180 см</p>
+									<p>Площадь - 1,13 м2</p>
+									<span class="article-category"></span><p>Оснащение номера</p> </span>
+									<span class="article-price"><p>Цена за сутки: <span class="price">250₽</span></p>  </span>
+								</div>
+
+								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
+								
+							</article>
+
+							<article id="3" class="article">
+								<img class="article-image" src="img/@1x/Rectangle 48article.jpg" alt="">
+								<div class="article-desription">
+									<h2>Сьют</h2>
+									<p>Размеры (ШхГхВ) - 125х125х180 см</p>
+									<p>Площадь - 1,56 м2</p>
+									<span class="article-category"></span><p>Оснащение номера</p> </span>
+									<span class="article-price"><p>Цена за сутки: <span class="price">350₽</span></p>  </span>
+								</div>
+
+								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
+								
+							</article>
+
+							<article id="4" class="article">
+								<img class="article-image" src="img/@1x/Rectangle 46article-1.jpg" alt="">
+								<div class="article-desription">
+									<h2>Люкс</h2>
+									<p>Размеры (ШхГхВ) - 160х160х180 см</p>
+									<p>Площадь - 2,56 м2</p>
+									<span class="article-category"></span><p>Оснащение номера</p> </span>
+									<span class="article-price"><p>Цена за сутки: <span class="price">500₽</span></p>  </span>
+								</div>
+
+								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
+								
+							</article>
+
+							<article id="5" class="article">
+								<img class="article-image" src="img/@1x/Rectangle 47article-1.jpg" alt="">
+								<div class="article-desription">
+									<h2>Супер-Люкс</h2>
+									<p>Размеры (ШхГхВ) - 180х160х180 см</p>
+									<p>Площадь - 2,88 м2</p>
+									<span class="article-category"></span><p>Оснащение номера</p> </span>
+									<span class="article-price"><p>Цена за сутки: <span class="price">600₽</span></p>  </span>
+								</div>
+
+								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
+								
+							</article>
+
+							
+						</div>
+					
+				</div>
+			</div>
+		</div>
 	</main>
 
-	<footer>
-		
-	</footer>
+	
 
 	<script src="js/scripts.min.js"></script>
+	
 
 </body>
 </html>

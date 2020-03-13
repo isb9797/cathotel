@@ -6,11 +6,12 @@
 	color: #666
 
 ::selection
+	color: #000
+	background-color: $accent-filter
 	
-	color: #fff
 
 body
-	font-size: 16px
+	font-size: 14px
 	min-width: 320px
 	position: relative
 	line-height: 1.65
@@ -38,21 +39,167 @@ body
 b, strong
 	font-weight: bold
 
+h1,h2,h3
+	margin: 0
+	padding: 0
+	font-family: $headers-font
+	font-weight: bold
 
+h1
+	font-size: $header-1-size
 
+h2
+	font-size: $header-2-size
 
+.disabled
+	display: none
 
 //Custom styles
 .header
 	background-color: #fff
+	margin-bottom: 144px
+
+	
 	.navigation
 		padding: 0 
+		background: #fff
+
+		.navbar-brand
+			cursor: pointer
 		.nav
 			&bar
-				padding: 12px 0
+				padding: 12px 16px 0
 			&-link
 			color: #000 !important
 			padding: 0 15px !important
+
+
+.main
+	
+
+	.order-by
+		position: absolute
+		right: 0px
+		width: 174px
+		
+
+
+	.filter
+
+		&-btn
+			color: #ffffff
+			text-align: center
+			height: 42px
+			width: 185px
+			display: block
+			color: #000
+			background-color: $accent-filter
+			border-radius: 25px	
+			line-height: 42px
+			padding-top: 0
+			margin-bottom: 15px
+
+			&__border
+				border: 2px solid $accent-filter
+				background: #fff
+		p
+			margin-bottom: 20px
+			margin-top: 35px
+			text-indent: none
+			padding: 0
+			font-size: 16px
+		
+
+		.input-text
+			width: 45%
+			border: #E1E1E1 solid 1px 
+
+			&::placeholder
+				color: #000
+
+	.form-check
+		padding: 0px
+		&-input
+			display: flex
+			margin-left: 0px
+			border: #E1E1E1  solid 1px
+			
+		&-label
+			margin-left: 30px
+			width: 100%
+			margin-bottom: 15px
+			
+		
+		
+
+
+
+.articles
+	position: relative
+	top: 60px	
+	display: grid
+	grid-template-columns: 1fr 1fr 1fr
+	grid-gap: 23px 20px
+
+	
+	.article
+		background: #FFFFFF
+		border: 1px solid #E1E1E1
+		box-sizing: border-box
+		box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25)
+		border-radius: 6px
+		width: 270px
+
+	
+
+		&-desription
+			padding: 20px 25px 0
+			white-space: nowrap
+			
+			p
+				line-height: 15px
+
+			h2
+				// margin-top: 25px
+				margin-bottom: 20px
+				line-height: 24px;
+				
+
+		.price
+				font-weight: normal !important
+				font-size: 18px !important
+
+
+		&-btn
+				color: #ffffff
+				text-align: center
+				height: 46px
+				width: 230px
+				display: block
+				margin: 0 auto
+				background-color: $accent-button
+				border-radius: 25px	
+				line-height: 46px
+				padding-top: 0
+				margin-bottom: 25px
+				display: flex
+				justify-content: space-around
+
+		.btn
+			
+			&-title
+				margin-left: 15px
+				margin-right: 15px
+
+			&-icon
+				background-image: url('../img/@1x/paw.svg')
+				display: block
+				height: 34px
+				width: 34px
+				margin-top: 6px
+				margin-left: 10px
+				
+			
 
 
 @import "media" // Always at the end
