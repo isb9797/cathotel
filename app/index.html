@@ -6,39 +6,44 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>App 1</title>
+	<title>Cat Hotel|| Ilin Sergey</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
+
 	<!-- Template Basic Images Start -->
 	<meta property="og:image" content="path/to/image.jpg">
 	<link rel="icon" href="img/favicon/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
 	<!-- Template Basic Images End -->
-	
+
 	<!-- Custom Browsers Color Start -->
 	<meta name="theme-color" content="#000">
 	<!-- Custom Browsers Color End -->
 
 	<link rel="stylesheet" href="css/main.min.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Rubik:300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" />
+	<link
+		href="https://fonts.googleapis.com/css?family=Rubik:300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+		rel="stylesheet" />
+	<link
+		href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic"
+		rel="stylesheet" />
 </head>
 
 <body>
 
 	<!-- Custom HTML -->
 
-	
+
 
 	<header class="header">
 		<div class="navigation container fixed-top">
 			<nav class="navbar navbar-expand-lg navbar-light  ">
 				<a class="navbar-brand" href="/"><img src="img/@1x/logo.svg" alt=""></a>
-				<button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+					aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div id="my-nav" class="collapse navbar-collapse">
@@ -47,7 +52,7 @@
 							<a class="nav-link" href="#">Почему мы?</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link  disabled" href="#"  tabindex="-1 " aria-disabled="true">Номера</a>
+							<a class="nav-link  disabled" href="#" tabindex="-1 " aria-disabled="true">Номера</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link  disabled" href="#" tabindex="0" aria-disabled="true">Отзывы</a>
@@ -55,7 +60,7 @@
 						<li class="nav-item">
 							<a class="nav-link  disabled" href="#" tabindex="1" aria-disabled="true">Как нас найти</a>
 						</li>
-						
+
 					</ul>
 				</div>
 			</nav>
@@ -68,176 +73,219 @@
 					<h1>Наши номера</h1>
 
 					<form method="get" action="#" class="filter">
-						<div class="form-check">	
+						<div class="form-check">
 							<p>Цена за сутки, ₽</p>
 							<input type="text" class="input-text" id="minPrice" placeholder="от 100">
 							<input type="text" class="input-text" id="maxPrice" placeholder="до 600">
-	
-	
+
+
 							<p>Площадь</p>
-							<input id="ch-0" class="form-check-input"  type="checkbox"  name="" value="cat0">
-							<label for="ch-0" class="form-check-label" >0,63 м2</label>
-	
+							<input id="ch-0" class="form-check-input" type="checkbox" name="" value="cat0">
+							<label for="ch-0" class="form-check-label">0,63 м2</label>
+
 							<input id="ch-1" class="form-check-input" type="checkbox" name="" value="cat1">
 							<label for="ch-1" class="form-check-label">0,90 м2</label>
-	
+
 							<input id="ch-2" class="form-check-input" type="checkbox" name="" value="cat2">
 							<label for="ch-2" class="form-check-label">1,13 м2</label>
-	
+
 							<input id="ch-3" class="form-check-input" type="checkbox" name="" value="cat3">
 							<label for="ch-3" class="form-check-label">1,56 м2</label>
-	
+
 							<input id="ch-4" class="form-check-input" type="checkbox" name="" value="cat4">
 							<label for="ch-4" class="form-check-label">2,56 м2</label>
-	
+
 							<input id="ch-5" class="form-check-input" type="checkbox" name="" value="cat5">
 							<label for="ch-5" class="form-check-label">2,88 м2</label>
-	
-							
-	
+
+
+
 							<p>Оснащение номера</p>
 							<input id="ch-6" class="form-check-input" type="checkbox" name="" value="cat6">
 							<label for="ch-6" class="form-check-label">Пустой номер</label>
-	
+
 							<input id="ch-7" class="form-check-input" type="checkbox" name="" value="cat7">
 							<label for="ch-7" class="form-check-label">Лежак</label>
-	
+
 							<input id="ch-8" class="form-check-input" type="checkbox" name="" value="cat8">
 							<label for="ch-8" class="form-check-label">Когтеточка</label>
-	
+
 							<input id="ch-9" class="form-check-input" type="checkbox" name="" value="cat9">
 							<label for="ch-9" class="form-check-label">Игровой-комплекс</label>
-	
+
 							<input id="ch-10" class="form-check-input" type="checkbox" name="" value="cat10">
 							<label for="ch-10" class="form-check-label">Домик</label>
 						</div>
 
-						<button type="button" class="filter-btn btn " data-mixitup-control data-filter="" id="submit-btn">Применить</button>
-						<button type="button" class="filter-btn filter-btn__border btn " data-mixitup-control data-filter="all" id="reset-btn">Сбросить фильтр</button>
+						<button type="button" class="filter-btn btn " data-mixitup-control data-filter=""
+							id="submit-btn">Применить</button>
+						<button type="button" class="filter-btn filter-btn__border btn " data-mixitup-control
+							data-filter="all" id="reset-btn">Сбросить фильтр</button>
 					</form>
 				</div>
 				<div class="col-lg-9">
 
-					<!-- Одна кнопка -->  
-					
+					<!-- Одна кнопка -->
+
 					<div class="form-group">
 						<select id="orderBy" class="form-control order-by" name="orderBy">
 							<option data-sort="square:asc" data-mixitup-control>&uarr; По площади </option>
 							<option data-sort="square:desc" data-mixitup-control>&darr; По площади </option>
 							<option data-sort="price:asc" data-mixitup-control> &uarr; По цене </option>
-							<option data-sort="price:desc" data-mixitup-control >&darr; По цене </option>
+							<option data-sort="price:desc" data-mixitup-control>&darr; По цене </option>
 						</select>
-					</div> 
+					</div>
 
-						<div class="articles">
-							<article id="0" class="article mix cat0 cat6" data-price="100" data-square="0.63">
-								<img class="article-image" src="img/@1x/Rectangle 46article.jpg" alt="">
-								<div class="article-desription">
-									<h2>Эконом</h2>
-									<p>Размеры (ШхГхВ) - 90х70х180 см</p>
-									<p>Площадь - 0,63 м2</p>
-									<span class="article-category"></span><p>Оснащение номера  <img src="img/@1x/Vector.svg" alt=""></p> </span>
-									<span class="article-price"><p>Цена за сутки: <span class="price">100₽</span></p></span>
-								</div>
-								<input type="hidden" name="Econom" id="card-0" value="100" class="priceValue">
-								<input type="hidden" name="EconomSquare" id="cardSquare-0" value="0.63" class="squareValue">
-								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
-								
-							</article>
+					<div class="articles">
+						<article id="0" class="article mix cat0 cat6" data-price="100" data-square="0.63">
+							<img class="article-image" src="img/@1x/Rectangle 46article.jpg" alt="">
+							<div class="article-desription">
+								<h2>Эконом</h2>
+								<p>Размеры (ШхГхВ) - 90х70х180 см</p>
+								<p>Площадь - 0,63 м2</p>
+								<span class="article-category"></span>
+								<p>Оснащение номера <img src="img/@1x/Vector.svg" alt=""></p> </span>
+								<span class="article-price">
+									<p>Цена за сутки: <span class="price">100₽</span></p>
+								</span>
+							</div>
+							<input type="hidden" name="Econom" id="card-0" value="100" class="priceValue">
+							<input type="hidden" name="EconomSquare" id="cardSquare-0" value="0.63" class="squareValue">
+							<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span
+									class="btn-icon"></span></a>
 
-							<article id="1" class="article mix cat1 cat7 cat8" data-price="200" data-square="0.90">
-								<img class="article-image" src="img/@1x/Rectangle 47article.jpg" alt="">
-								<div class="article-desription">
-									<h2>Эконом плюс</h2>
-									<p>Размеры (ШхГхВ) - 90х100х180 см</p>
-									<p>Площадь - 0,90 м2</p>
-									<span class="article-category"></span><p>Оснащение номера <img src="img/@1x/Vector-1.svg" alt=""> <img src="img/@1x/Vector-2.svg" alt=""></p> </span>
-									<span class="article-price"><p>Цена за сутки: <span class="price">200₽</span></p>  </span>
-								</div>
+						</article>
 
-								<input type="hidden" name="EconomPlus" id="card-1" value="200" class="priceValue">
-								<input type="hidden" name="EconomPlusSquare" id="cardSquare-1" value="0.90" class="squareValue">
-								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
-								
-							</article>
+						<article id="1" class="article mix cat1 cat7 cat8" data-price="200" data-square="0.90">
+							<img class="article-image" src="img/@1x/Rectangle 47article.jpg" alt="">
+							<div class="article-desription">
+								<h2>Эконом плюс</h2>
+								<p>Размеры (ШхГхВ) - 90х100х180 см</p>
+								<p>Площадь - 0,90 м2</p>
+								<span class="article-category"></span>
+								<p>Оснащение номера <img src="img/@1x/Vector-1.svg" alt=""> <img
+										src="img/@1x/Vector-2.svg" alt=""></p> </span>
+								<span class="article-price">
+									<p>Цена за сутки: <span class="price">200₽</span></p>
+								</span>
+							</div>
 
-							<article id="2" class="article mix cat2 cat7 cat8 cat9" data-price="250" data-square="1.13">
-								<img class="article-image" src="img/@1x/Rectangle 48article-1.jpg" alt="">
-								<div class="article-desription">
-									<h2>Комфорт</h2>
-									<p>Размеры (ШхГхВ) - 100х125х180 см</p>
-									<p>Площадь - 1,13 м2</p>
-									<span class="article-category"></span><p>Оснащение номера  <img src="img/@1x/Vector-1.svg" alt=""> <img src="img/@1x/Vector-2.svg" alt=""> <img src="img/@1x/Vector-4.svg" alt=""></p> </span>
-									<span class="article-price"><p>Цена за сутки: <span class="price">250₽</span></p>  </span>
-								</div>
+							<input type="hidden" name="EconomPlus" id="card-1" value="200" class="priceValue">
+							<input type="hidden" name="EconomPlusSquare" id="cardSquare-1" value="0.90"
+								class="squareValue">
+							<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span
+									class="btn-icon"></span></a>
 
-								<input type="hidden" name="ComfortSquare" id="cardSquare-2" value="1.13" class="squareValue">
-								<input type="hidden" name="Comfort" id="card-2" value="250" class="priceValue">
-								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
-								
-							</article>
+						</article>
 
-							<article id="3" class="article mix cat3 cat7 cat8 cat9" data-price="350" data-square="1.56">
-								<img class="article-image" src="img/@1x/Rectangle 48article.jpg" alt="">
-								<div class="article-desription">
-									<h2>Сьют</h2>
-									<p>Размеры (ШхГхВ) - 125х125х180 см</p>
-									<p>Площадь - 1,56 м2</p>
-									<span class="article-category"></span><p>Оснащение номера  <img src="img/@1x/Vector-1.svg" alt="">  <img src="img/@1x/Vector-2.svg" alt=""> <img src="img/@1x/Vector-4.svg" alt=""></p> </span>
-									<span class="article-price"><p>Цена за сутки: <span class="price">350₽</span></p>  </span>
-								</div>
+						<article id="2" class="article mix cat2 cat7 cat8 cat9" data-price="250" data-square="1.13">
+							<img class="article-image" src="img/@1x/Rectangle 48article-1.jpg" alt="">
+							<div class="article-desription">
+								<h2>Комфорт</h2>
+								<p>Размеры (ШхГхВ) - 100х125х180 см</p>
+								<p>Площадь - 1,13 м2</p>
+								<span class="article-category"></span>
+								<p>Оснащение номера <img src="img/@1x/Vector-1.svg" alt=""> <img
+										src="img/@1x/Vector-2.svg" alt=""> <img src="img/@1x/Vector-4.svg" alt=""></p>
+								</span>
+								<span class="article-price">
+									<p>Цена за сутки: <span class="price">250₽</span></p>
+								</span>
+							</div>
 
-								<input type="hidden" name="SiutSquare" id="cardSquare-3" value="1.56" class="squareValue">
-								<input type="hidden" name="Siut" id="card-3" value="350" class="priceValue">
-								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
-								
-							</article>
+							<input type="hidden" name="ComfortSquare" id="cardSquare-2" value="1.13"
+								class="squareValue">
+							<input type="hidden" name="Comfort" id="card-2" value="250" class="priceValue">
+							<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span
+									class="btn-icon"></span></a>
 
-							<article id="4" class="article mix cat4 cat7 cat8 cat9 cat10" data-price="500" data-square="2.56">
-								<img class="article-image" src="img/@1x/Rectangle 46article-1.jpg" alt="">
-								<div class="article-desription">
-									<h2>Люкс</h2>
-									<p>Размеры (ШхГхВ) - 160х160х180 см</p>
-									<p>Площадь - 2,56 м2</p>
-									<span class="article-category"></span><p>Оснащение номера <img src="img/@1x/Vector-1.svg" alt="">  <img src="img/@1x/Vector-2.svg" alt=""> <img src="img/@1x/Vector-4.svg" alt=""> <img src="img/@1x/Vector-3.svg" alt=""></p> </span>
-									<span class="article-price"><p>Цена за сутки: <span class="price">500₽</span></p>  </span>
-								</div>
+						</article>
 
-								<input type="hidden" name="LuxSquare" id="cardSquare-4" value="2.56" class="squareValue">
-								<input type="hidden" name="Lux" id="card-4" value="500" class="priceValue">
-								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
-								
-							</article>
+						<article id="3" class="article mix cat3 cat7 cat8 cat9" data-price="350" data-square="1.56">
+							<img class="article-image" src="img/@1x/Rectangle 48article.jpg" alt="">
+							<div class="article-desription">
+								<h2>Сьют</h2>
+								<p>Размеры (ШхГхВ) - 125х125х180 см</p>
+								<p>Площадь - 1,56 м2</p>
+								<span class="article-category"></span>
+								<p>Оснащение номера <img src="img/@1x/Vector-1.svg" alt=""> <img
+										src="img/@1x/Vector-2.svg" alt=""> <img src="img/@1x/Vector-4.svg" alt=""></p>
+								</span>
+								<span class="article-price">
+									<p>Цена за сутки: <span class="price">350₽</span></p>
+								</span>
+							</div>
 
-							<article id="5" class="article mix cat5 cat7 cat8 cat9 cat10" data-price="600" data-square="2.88">
-								<img class="article-image" src="img/@1x/Rectangle 47article-1.jpg" alt="">
-								<div class="article-desription">
-									<h2>Супер-Люкс</h2>
-									<p>Размеры (ШхГхВ) - 180х160х180 см</p>
-									<p>Площадь - 2,88 м2</p>
-									<span class="article-category"></span><p>Оснащение номера <img src="img/@1x/Vector-1.svg" alt="">  <img src="img/@1x/Vector-2.svg" alt=""> <img src="img/@1x/Vector-4.svg" alt=""> <img src="img/@1x/Vector-3.svg" alt=""></p> </span>
-									<span class="article-price"><p>Цена за сутки: <span class="price" class="priceValue">600₽</span></p>  </span>
-								</div>
+							<input type="hidden" name="SiutSquare" id="cardSquare-3" value="1.56" class="squareValue">
+							<input type="hidden" name="Siut" id="card-3" value="350" class="priceValue">
+							<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span
+									class="btn-icon"></span></a>
 
-								<input type="hidden" name="SuperLuxSquare" id="cardSquare-5" value="2.88" class="squareValue">
-								<input type="hidden" name="superLux" id="card-5" value="600" class="priceValue">
-								<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span class="btn-icon"></span></a>
-								
-							</article>
+						</article>
 
-							
-						</div>
-					
+						<article id="4" class="article mix cat4 cat7 cat8 cat9 cat10" data-price="500"
+							data-square="2.56">
+							<img class="article-image" src="img/@1x/Rectangle 46article-1.jpg" alt="">
+							<div class="article-desription">
+								<h2>Люкс</h2>
+								<p>Размеры (ШхГхВ) - 160х160х180 см</p>
+								<p>Площадь - 2,56 м2</p>
+								<span class="article-category"></span>
+								<p>Оснащение номера <img src="img/@1x/Vector-1.svg" alt=""> <img
+										src="img/@1x/Vector-2.svg" alt=""> <img src="img/@1x/Vector-4.svg" alt=""> <img
+										src="img/@1x/Vector-3.svg" alt=""></p> </span>
+								<span class="article-price">
+									<p>Цена за сутки: <span class="price">500₽</span></p>
+								</span>
+							</div>
+
+							<input type="hidden" name="LuxSquare" id="cardSquare-4" value="2.56" class="squareValue">
+							<input type="hidden" name="Lux" id="card-4" value="500" class="priceValue">
+							<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span
+									class="btn-icon"></span></a>
+
+						</article>
+
+						<article id="5" class="article mix cat5 cat7 cat8 cat9 cat10" data-price="600"
+							data-square="2.88">
+							<img class="article-image" src="img/@1x/Rectangle 47article-1.jpg" alt="">
+							<div class="article-desription">
+								<h2>Супер-Люкс</h2>
+								<p>Размеры (ШхГхВ) - 180х160х180 см</p>
+								<p>Площадь - 2,88 м2</p>
+								<span class="article-category"></span>
+								<p>Оснащение номера <img src="img/@1x/Vector-1.svg" alt=""> <img
+										src="img/@1x/Vector-2.svg" alt=""> <img src="img/@1x/Vector-4.svg" alt=""> <img
+										src="img/@1x/Vector-3.svg" alt=""></p> </span>
+								<span class="article-price">
+									<p>Цена за сутки: <span class="price" class="priceValue">600₽</span></p>
+								</span>
+							</div>
+
+							<input type="hidden" name="SuperLuxSquare" id="cardSquare-5" value="2.88"
+								class="squareValue">
+							<input type="hidden" name="superLux" id="card-5" value="600" class="priceValue">
+							<a href="#" class="article-btn btn "><span class="btn-title">Забронировать</span><span
+									class="btn-icon"></span></a>
+
+						</article>
+
+
+					</div>
+
 				</div>
 			</div>
 		</div>
 	</main>
 
-	
+
 
 	<script src="js/scripts.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+
 
 </body>
+
 </html>

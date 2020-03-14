@@ -1,1 +1,3 @@
-<h1>Optimaze HTML 4: Sergey Ilin Edition</h1>
+<h1>Cat Hotel || Ilin Sergey</h1>
+
+<p>Проект сделан для HR веб-студии</p>
